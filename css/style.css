@@ -8,7 +8,6 @@ ul,ol{
 .container{
     margin: 0 auto;
     width: 1320px;
-    /* background: red; */
 }
 a{
     text-decoration: none;
