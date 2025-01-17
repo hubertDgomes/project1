@@ -17,16 +17,10 @@ a{
     padding: 20px 0;
     background: rgb(0, 0, 0);
 }
-.InConLeft{
-    margin-top: 10px;
-}
 .ForFlex{
     display: flex;
     justify-content: space-between;
-}
-.InConMid{
-    margin-left: 280px;
-    margin-top: 20px;
+    align-items: center;
 }
 .InConMid ul li{
     display: inline-block;
@@ -110,12 +104,18 @@ a{
 }
 .HB{
     display: flex;
-    height: 615px;
-    background: rgb(255, 255, 255);
-    column-gap: 50px;
+}
+.HB .bible img{
+    width: 100%;
+}
+.bible{
+    width: 50%;
 }
 .bibleText{
-    padding: 307px 0;
+    width: 50%;
+    margin-top: 230px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .bg2{
     background: url(../images/bg-img.jpg);
